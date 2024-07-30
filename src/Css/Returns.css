@@ -1,0 +1,25 @@
+.returns-container {
+    padding: 20px;
+    background-color: #fffaf0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.returns-container h1 {
+    color: #800000;
+}
+
+.returns-container p {
+    color: #4d2600;
+    line-height: 1.6;
+}
+
+.returns-container ol {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.returns-container li {
+    margin: 10px 0;
+    color: #663300;
+}
+

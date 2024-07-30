@@ -1,0 +1,51 @@
+/* Navbar.css */
+.dropdown-menu {
+    position: absolute;
+    left: 50px;
+    top: 0; /* Changed to 0 to start from the top of the nav */
+    height: 100%; /* Added to make the dropdown use the full height of the nav */
+    width: 25%; /* Changed to 25% to use around 25% of the width */
+    background-color: #1e1e1e;
+    border: 1px solid #ccc;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    animation: fadeIn 0.5s ease-in-out;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.dropdown-menu .dashboard-header {
+    background-color: #333;
+    color: #ffcc2f;
+    padding: 10px;
+    border-bottom: 1px solid #444;
+}
+
+.dropdown-menu .menu-items {
+    display: flex;
+    flex-direction: column; /* Changed to column to stack the menu items vertically */
+    justify-content: space-between;
+    padding: 20px;
+    height: 100%; /* Added to make the menu items take up the full height of the dropdown */
+}
+
+.dropdown-menu .menu-item {
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #444;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    flex: 1; /* Added to make each menu item take up an equal amount of space */
+}
+.dropdown-menu .menu-item:hover {
+    background-color: #333;
+    color: #ffcc2f;
+}
+
+.dropdown-menu .menu-item svg {
+    margin-right: 10px;
+    font-size: 20px;
+}

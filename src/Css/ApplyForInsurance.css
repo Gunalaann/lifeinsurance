@@ -1,0 +1,47 @@
+.apply-insurance-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 570px;
+
+}
+
+.apply-insurance-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.apply-insurance-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.apply-insurance-container label {
+    margin-bottom: 10px;
+}
+
+.apply-insurance-container input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.apply-insurance-container button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.apply-insurance-container button:hover {
+    background-color: #002368;
+}
+.afibutton{
+    margin-top: 30px;
+}
